@@ -1,0 +1,215 @@
+body{
+font-size: 25px;
+font-family: Times New Roman,Comic Sans MS;
+margin:0px;
+background-image: url(back.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#menu{
+background-color: silver;
+opacity: 0.6;
+height:47px;
+margin:10px;
+border-radius:5px;
+font-size:105%;
+}
+#menu ul{
+list-style-type:none;
+padding:5px;
+text-align:center;
+margin:0px;
+border-radius:5px;
+}
+#menu ul li{
+display:inline;
+}
+#menu ul li a{
+text-decoration:none;
+color:white;
+padding: .3em 1em;
+border-radius:5px;
+}
+#menu ul li a:hover{
+color:white;
+}
+
+
+
+.main{
+margin: 10px;
+border-radius: 5px;
+padding: 20px;
+height: 74%;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+
+
+
+
+.footer{
+background-color: silver;
+opacity: 0.6;
+height:47px;
+margin:10px;
+border-radius:5px;
+     position: fixed;
+     left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer ul{
+list-style-type:none;
+padding:5px;
+text-align:center;
+margin:0px;
+border-radius:5px;
+}
+.footer ul li{
+display:inline;
+}
+.footer ul li a{
+text-decoration:none;
+color:black;
+padding: .3em 1em;
+border-radius:5px;
+}
+.footer ul li a:hover{
+color:white;
+}
+
+
+
+.main .loginbox input[type="text"],
+.main .loginbox input[type="date"],
+.main .loginbox input[type="password"]{
+border:none;
+width:25%;
+background-color:grey;
+color:yellow;
+font-family: Lucida Calligraphy,Comic Sans MS;
+border-radius:5px;
+cursor:hand;
+opacity:0.5;
+height: 25px
+}
+
+.main .loginbox input[type="submit"]{
+border:none;
+width:25%;
+background-color:grey;
+color:white;
+font-family: Lucida Calligraphy,Comic Sans MS;
+border-radius:5px;
+height:35px;
+opacity:0.6;
+}
+.main .loginbox input[type="submit"]:hover{
+color:black;
+cursor:hand;
+}
+.main .burger
+{
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+.main .Necklace{
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+   
+
+}
+.main .Bracelet{
+width: 49%;
+float: right;
+height: 33%;
+}
+.main .Earrings{
+width: 49%;
+float: left;
+height: 33%;
+}
+
+.main .Anklets{
+width: 49%;
+float: right;
+height: 33%;
+
+}
+.main .Rings{
+width: 49%;
+float: right;
+height: 33%;
+}
+.main .Nose pin{
+width: 49%;
+float: left;
+height: 33%;
+}
+
+.main .Burger
+.container{
+position: relative;
+width: 50%
+}
+.image {
+ opacity:1;
+display: block;
+width: 100%
+height: auto;
+transition: .5s ease;
+backface-visibitlity: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top:50%
+left:50%
+transform: translate(-50%, 50%);
+-ms-transform: translate(-50%, -50%);
+text-align center;
+}
+
+.container:hover .image{
+opacity: 0.3;
+}
+.container:hover .image{
+opacity: 1;
+}
+.text {
+background-color: grey
+color: white;
+font-size: 16px:
+padding:16px 32px:}
+
+
+
